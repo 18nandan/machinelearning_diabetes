@@ -7,8 +7,9 @@ app = Flask(__name__)
 
 # Load the trained model and scaler
 try:
-    model = joblib.load("logistic_regression_diabetes_model.joblib")
-    scaler = joblib.load("scaler.joblib")
+    model = joblib.load("models/logistic_regression_diabetes_model.joblib")
+    scaler = joblib.load("models/scaler.joblib")
+
     print("Model and scaler loaded successfully.")
 except Exception as e:
     print(f"Error loading model or scaler: {e}")
