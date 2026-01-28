@@ -49,4 +49,22 @@ The trained model and scaler are saved using `joblib`.
 ---
 
 ## 📁 Project Structure
+.
+├── app.py
+├── requirements.txt
+├── logistic_regression_diabetes_model.joblib
+├── scaler.joblib
+└── README.md
+
+
+
+---
+
+## ⚙️ How to Run Locally
+
+### 1️⃣ Clone the repository
+```bash
+git clone https://github.com/<your-username>/<repo-name>.git
+cd <repo-name>
+
 
